@@ -1,1 +1,9 @@
-/*  your css code here. If applicable */
+     #animal-photos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        #animal-photos img {
+            width: 100%;
+            height: auto;
+        }
